@@ -1,0 +1,35 @@
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/roomstay-index/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+.wp-block-roomstay-index {
+  --rs-color-white: #f4f0ef;
+}
+.wp-block-roomstay-index > .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  min-height: 250px;
+  border: 1px solid #352c1f;
+  border-radius: 4px;
+}
+.wp-block-roomstay-index .logo-text-color {
+  fill: #7c39ff;
+}
+.wp-block-roomstay-index p {
+  max-width: none !important;
+}
+.wp-block-roomstay-index .roomstay-booking-container {
+  --rs-color-grey: #dcdcdc;
+  --rs-color-snow: #dcdcdc;
+}
+.wp-block-roomstay-index .roomstay-booking-container .engine-body {
+  margin-top: 64px;
+  padding-bottom: 32px;
+}
+.wp-block-roomstay-index #roomstay-booking-container.--theme-medium,
+.wp-block-roomstay-index .roomstay-booking-container.--theme-medium {
+  background: #f4f0ef !important;
+}

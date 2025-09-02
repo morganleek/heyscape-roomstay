@@ -1,0 +1,56 @@
+// header.wp-block-template-part {
+// 	z-index: 4999 !important;
+// 	@media (min-width: 992px) { 
+// 		body.header-is-scrolled & {
+// 			position: relative;
+// 			top: 0;
+// 		}
+// 	}
+// }
+
+.wp-block-roomstay-index {
+	--rs-color-white: #f4f0ef;
+	& > .wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: #fff;
+		width: 100%;
+		min-height: 250px;
+		border: 1px solid #352c1f;
+		border-radius: 4px;
+	}
+	.logo-text-color { 
+		fill: #7c39ff; 
+	}
+	p {
+		max-width: none !important;
+	}
+	// .roomstay-booking-container {
+	// 	.engine-body {
+	// 		margin-top: 46px;
+	// 	}
+	// 	.step-dropdown {
+	// 		position: absolute;
+	// 		top: 0;
+	// 	}
+	// 	.be-notification-wrapper,
+	// 	div[name=roomstay-fullpage-engine] header {
+	// 		display: none;
+	// 	}
+	// }
+	.roomstay-booking-container {
+		--rs-color-grey: #dcdcdc;
+		--rs-color-snow: #dcdcdc;
+		.engine-body {
+			margin-top: 64px;
+			padding-bottom: 32px;
+		}
+	}
+
+	#roomstay-booking-container.--theme-medium, 
+	.roomstay-booking-container.--theme-medium {
+		background: #f4f0ef !important;
+	}
+}

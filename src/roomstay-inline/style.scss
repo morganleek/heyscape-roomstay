@@ -1,0 +1,16 @@
+.wp-block-roomstay-inline {
+	& > .wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: #fff;
+		width: 100%;
+		min-height: 250px;
+		border: 1px solid #352c1f;
+		border-radius: 4px;
+	}
+	.logo-text-color { 
+		fill: #7c39ff; 
+	}
+}
