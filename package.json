@@ -15,6 +15,6 @@
 		"start": "wp-scripts start --blocks-manifest"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^30.22.0"
+		"@wordpress/scripts": "^30.24.0"
 	}
 }
